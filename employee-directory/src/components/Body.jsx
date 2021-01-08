@@ -7,9 +7,9 @@ class Body extends Component {
     }
 
     render() {
-        return(
+        return (
             <>
-            <Navbar handlesearchchange = {this.handlesearchchange} />
+                <Navbar handlesearchchange={this.handlesearchchange} />
             </>
         )
     }

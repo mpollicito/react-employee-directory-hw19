@@ -1,9 +1,9 @@
 import React from "react"
 import Searchbar from "./Searchbar.jsx"
 
-function Navbar({handlesearchchange}) {
+function Navbar({ handlesearchchange }) {
     return (
-        <nav className = "navbar" >
+        <nav className="navbar" >
             <div>
                 <Searchbar handlesearchchange={handlesearchchange} />
             </div>
